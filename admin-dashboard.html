@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Admin Dashboard</h1>
+    <div class="actions">
+      <h2>Employee Actions</h2>
+      <center>
+      <button onclick="addEmployee()">Add Employee</button>
+    </br>
+    <button onclick="searchEmployee()">Search</button>
+      <input type="text" id="searchInput" placeholder="Search by ID/Name">
+</br>
+      <button onclick="removeEmployee()">Remove Employee</button>
+      </center>
+    </div>
+    <center>
+    <div class="customer-info">
+      <h2>Customer Information</h2>
+      <button onclick="viewCustomerInfo()">View Customer Info</button>
+      
+    </div>
+</center>
+  </div>
+</body>
+</html>
