@@ -1,0 +1,20 @@
+function addEmployee() {
+  // Implement add employee functionality here
+  console.log("Add Employee");
+}
+
+function searchEmployee() {
+  var searchInput = document.getElementById("searchInput").value;
+  // Implement search employee functionality here
+  console.log("Search Employee: " + searchInput);
+}
+
+function removeEmployee() {
+  // Implement remove employee functionality here
+  console.log("Remove Employee");
+}
+
+function viewCustomerInfo() {
+  // Implement view customer info functionality here
+  console.log("View Customer Info");
+}
